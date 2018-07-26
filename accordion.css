@@ -6,9 +6,22 @@
 
 /* Layout helpers
 ----------------------------------*/
+nav{
+	margin-bottom: 1em;
+	background-color: black;
+	border-radius: 0.5em;
+}
+nav a{
+	color: white;
+}
+#tabs{
+	height: 50em;
+	overflow: scroll;
+}
 .ui-helper-hidden {
 	display: none;
 }
+
 .ui-helper-hidden-accessible {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -102,6 +115,7 @@
 	padding: 1em 2.2em;
 	border-top: 0;
 	overflow: auto;
+	height: 38em;
 }
 .ui-autocomplete {
 	position: absolute;
@@ -1272,9 +1286,7 @@ a.ui-button:active,
 
 /* Misc visuals
 ----------------------------------*/
-*{
-    outline: 1px dotted black;
-}
+
 
 /* Corner radius */
 .ui-corner-all,

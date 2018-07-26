@@ -1272,6 +1272,9 @@ a.ui-button:active,
 
 /* Misc visuals
 ----------------------------------*/
+*{
+    outline: 1px dotted black;
+}
 
 /* Corner radius */
 .ui-corner-all,
